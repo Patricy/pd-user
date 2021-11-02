@@ -1,7 +1,7 @@
 {
-  "name": "appaydin/pd-user",
-  "description": "Symfony Simple User Bundle",
-  "homepage": "https://github.com/appaydin/pd-user",
+  "name": "patricy/pd-user",
+  "description": "Symfony Simple User Bundle (forked)",
+  "homepage": "https://github.com/Patricy/pd-user",
   "type": "symfony-bundle",
   "license": "MIT",
   "keywords": [
@@ -15,10 +15,14 @@
     {
       "name": "Ramazan APAYDIN",
       "homepage": "https://github.com/appaydin"
+    },
+    {
+      "name": "Patricy",
+      "homepage": "https://github.com/Patricy"
     }
   ],
   "require": {
-    "php": ">=8.0.0",
+    "php": ">=7.4",
     "twig/twig": "*",
     "symfony/mailer": "*",
     "symfony/event-dispatcher": "*"
@@ -27,5 +31,11 @@
     "psr-4": {
       "Pd\\UserBundle\\": ""
     }
-  }
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/Patricy/pd-user.git"
+    }
+  ]
 }
